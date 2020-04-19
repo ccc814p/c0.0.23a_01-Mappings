@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/level/tile/Tile
+	CLASS SoundType StepSound

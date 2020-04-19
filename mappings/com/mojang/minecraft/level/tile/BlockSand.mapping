@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/level/tile/g com/mojang/minecraft/level/tile/BlockSand
+	METHOD e (Lcom/mojang/minecraft/level/Level;III)V
+		ARG 2 integer_2
+		ARG 3 integer_3

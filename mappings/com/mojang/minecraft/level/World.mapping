@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/level/Level com/mojang/minecraft/level/World
+	FIELD c rand Ljava/util/Random;
+	METHOD getTile getBlockId (III)I
+	METHOD isLit getBlockLightValue (III)Z
+	METHOD setTile setBlockWithNotify (IIII)Z

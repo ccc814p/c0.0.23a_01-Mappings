@@ -1,0 +1,64 @@
+CLASS com/mojang/minecraft/level/tile/a com/mojang/minecraft/level/tile/Block
+	FIELD A clothYellowGreen Lcom/mojang/minecraft/level/tile/a;
+	FIELD B clothGreen Lcom/mojang/minecraft/level/tile/a;
+	FIELD C clothGreenCyan Lcom/mojang/minecraft/level/tile/a;
+	FIELD D clothCyan Lcom/mojang/minecraft/level/tile/a;
+	FIELD E clothBlue Lcom/mojang/minecraft/level/tile/a;
+	FIELD F clothBlueViolet Lcom/mojang/minecraft/level/tile/a;
+	FIELD G clothViolet Lcom/mojang/minecraft/level/tile/a;
+	FIELD H clothPurple Lcom/mojang/minecraft/level/tile/a;
+	FIELD I clothMagenta Lcom/mojang/minecraft/level/tile/a;
+	FIELD J clothMagentaRed Lcom/mojang/minecraft/level/tile/a;
+	FIELD K clothDarkGray Lcom/mojang/minecraft/level/tile/a;
+	FIELD L clothLightGray Lcom/mojang/minecraft/level/tile/a;
+	FIELD M clothWhite Lcom/mojang/minecraft/level/tile/a;
+	FIELD N plantYellow Lcom/mojang/minecraft/level/tile/a;
+	FIELD O plantRed Lcom/mojang/minecraft/level/tile/a;
+	FIELD P mushroomBrown Lcom/mojang/minecraft/level/tile/a;
+	FIELD Q mushroomRed Lcom/mojang/minecraft/level/tile/a;
+	FIELD R blockGold Lcom/mojang/minecraft/level/tile/a;
+	FIELD S blockIndexInTexture I
+	FIELD T blockID I
+	FIELD U stepSound Lcom/mojang/minecraft/level/tile/Tile$SoundType;
+	FIELD b blocksList [Lcom/mojang/minecraft/level/tile/a;
+	FIELD c canBlockGrass [Z
+	FIELD d stone Lcom/mojang/minecraft/level/tile/a;
+	FIELD e grass Lcom/mojang/minecraft/level/tile/a;
+	FIELD f dirt Lcom/mojang/minecraft/level/tile/a;
+	FIELD g cobblestone Lcom/mojang/minecraft/level/tile/a;
+	FIELD h planks Lcom/mojang/minecraft/level/tile/a;
+	FIELD i sapling Lcom/mojang/minecraft/level/tile/a;
+	FIELD j bedrock Lcom/mojang/minecraft/level/tile/a;
+	FIELD k waterMoving Lcom/mojang/minecraft/level/tile/a;
+	FIELD l waterStill Lcom/mojang/minecraft/level/tile/a;
+	FIELD m lavaMoving Lcom/mojang/minecraft/level/tile/a;
+	FIELD n lavaStill Lcom/mojang/minecraft/level/tile/a;
+	FIELD o sand Lcom/mojang/minecraft/level/tile/a;
+	FIELD p gravel Lcom/mojang/minecraft/level/tile/a;
+	FIELD q oreGold Lcom/mojang/minecraft/level/tile/a;
+	FIELD r oreIron Lcom/mojang/minecraft/level/tile/a;
+	FIELD s oreCoal Lcom/mojang/minecraft/level/tile/a;
+	FIELD t wood Lcom/mojang/minecraft/level/tile/a;
+	FIELD u leaves Lcom/mojang/minecraft/level/tile/a;
+	FIELD v sponge Lcom/mojang/minecraft/level/tile/a;
+	FIELD w glass Lcom/mojang/minecraft/level/tile/a;
+	FIELD x clothRed Lcom/mojang/minecraft/level/tile/a;
+	FIELD y clothOrange Lcom/mojang/minecraft/level/tile/a;
+	FIELD z clothYellow Lcom/mojang/minecraft/level/tile/a;
+	METHOD <init> (I)V
+		ARG 1 blockId
+	METHOD <init> (II)V
+		ARG 1 var1
+		ARG 2 var2
+	METHOD a (Lcom/mojang/minecraft/a/c;Lcom/mojang/minecraft/level/Level;IIII)Z
+		ARG 2 g
+	METHOD a updateTick (Lcom/mojang/minecraft/level/Level;IIILjava/util/Random;)V
+		ARG 1 g
+		ARG 2 var2
+		ARG 3 var3
+		ARG 4 var4
+		ARG 5 rand
+	METHOD a block (Lcom/mojang/minecraft/level/tile/Tile$SoundType;FF)Lcom/mojang/minecraft/level/tile/a;
+	METHOD a setTickOnLoad (Z)V
+	METHOD b getBlockTextureFromSide (I)I
+		ARG 1 var1
