@@ -1,0 +1,4 @@
+CLASS com/mojang/minecraft/e com/mojang/minecraft/ThreadSleepForever
+	METHOD <init> (Lcom/mojang/minecraft/k;)V
+		ARG 1 minecraft
+	METHOD run run ()V

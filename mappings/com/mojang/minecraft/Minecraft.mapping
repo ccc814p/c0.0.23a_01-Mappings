@@ -1,0 +1,12 @@
+CLASS com/mojang/minecraft/k com/mojang/minecraft/Minecraft
+	FIELD C gameSettings Lcom/mojang/minecraft/j;
+	FIELD F running Z
+	FIELD I fullscreen Z
+	FIELD K cursor Lorg/lwjgl/input/Cursor;
+	FIELD a displayWidth I
+	FIELD b displayHeight I
+	FIELD e thePlayer Lcom/mojang/minecraft/player/Player;
+	FIELD i mcCanvas Ljava/awt/Canvas;
+	FIELD o currentScreen Lcom/mojang/minecraft/c/o;
+	METHOD a shutdownMinecraftApplet ()V
+	METHOD a checkGLError (Ljava/lang/String;)V

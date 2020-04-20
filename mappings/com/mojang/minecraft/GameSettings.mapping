@@ -1,0 +1,7 @@
+CLASS com/mojang/minecraft/j com/mojang/minecraft/GameSettings
+	FIELD a music Z
+	FIELD b sound Z
+	FIELD c invertMouse Z
+	FIELD d showFPS Z
+	FIELD e renderDistance I
+	FIELD p keyBindings [Lcom/mojang/minecraft/i;

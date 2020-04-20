@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/g com/mojang/minecraft/OsMap
+	FIELD a array [I

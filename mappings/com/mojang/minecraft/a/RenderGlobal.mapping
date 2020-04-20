@@ -1,0 +1,2 @@
+CLASS com/mojang/minecraft/a/g com/mojang/minecraft/a/RenderGlobal
+	FIELD b renderEngine Lcom/mojang/minecraft/a/a;

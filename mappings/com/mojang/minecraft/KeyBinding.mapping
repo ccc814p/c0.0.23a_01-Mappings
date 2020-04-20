@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/i com/mojang/minecraft/KeyBinding
+	FIELD a keyDescription Ljava/lang/String;
+	FIELD b keyCode I
+	METHOD <init> (Ljava/lang/String;I)V
+		ARG 1 description
+		ARG 2 code

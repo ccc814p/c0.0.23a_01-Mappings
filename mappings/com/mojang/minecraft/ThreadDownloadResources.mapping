@@ -1,0 +1,6 @@
+CLASS com/mojang/minecraft/c com/mojang/minecraft/ThreadDownloadResources
+	FIELD a closing Z
+	FIELD b resourcesFolder Ljava/io/File;
+	FIELD c mc Lcom/mojang/minecraft/k;
+	METHOD a downloadResource (Ljava/net/URL;Ljava/io/File;)V
+		ARG 1 url

@@ -1,0 +1,3 @@
+CLASS com/mojang/minecraft/c/o com/mojang/minecraft/c/GuiScreen
+	FIELD d controlList Ljava/util/List;
+	METHOD a initGui ()V

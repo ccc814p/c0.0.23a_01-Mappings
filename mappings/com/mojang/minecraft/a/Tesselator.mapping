@@ -1,0 +1,5 @@
+CLASS com/mojang/minecraft/a/c com/mojang/minecraft/a/Tesselator
+	FIELD a instance Lcom/mojang/minecraft/a/c;
+	FIELD b floatBuffer Ljava/nio/FloatBuffer;
+	METHOD a draw ()V
+	METHOD a addVertexWithUV (FFFFF)V
